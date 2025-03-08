@@ -9,5 +9,39 @@
     "key": "cmd+shift+v",
     "command": "pasteAndIndent.action",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+cmd",
+    "command": "editor.action.addCommentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+k cmd+c",
+    "command": "-editor.action.addCommentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+cmd",
+    "command": "editor.action.removeCommentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+k cmd+u",
+    "command": "-editor.action.removeCommentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+cmd",
+    "command": "workbench.action.focusCommentOnCurrentLine"
+  },
+  {
+    "key": "shift+alt",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+7",
+    "command": "-editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]

@@ -12,8 +12,6 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderControlCharacters": true,
     "editor.rulers": [
-        80,
-        120
     ],
     "editor.showFoldingControls": "always",
     "editor.snippetSuggestions": "top",
@@ -84,4 +82,15 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Ayu Dark",
+    "workbench.activityBar.location": "top",
+    "gitlens.advanced.messages": {
+      "suppressGitDisabledWarning": true,
+      "suppressGitMissingWarning": true
+    },
+    "terminal.integrated.defaultLocation": "editor",
+    //"workbench.panel.defaultLocation": "bottom",
+    //"terminal.integrated.defaultLocation": "bottom"
+    //"terminal.integrated.defaultLocation": "bottom"
 }
